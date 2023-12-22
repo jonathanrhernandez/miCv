@@ -1,0 +1,103 @@
+html, body{
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #212121;
+    background-color: #ffffff;       
+}
+header{
+
+background-color: #333333;
+position: fixed;
+top: 0;
+width: 100%;
+height: 104px;
+display: flex;
+}
+.nombreRol{
+    display: flex;    
+    flex-direction: column;
+    justify-content: center;
+}
+.image-profile {
+    width: 100px; 
+    height: 100px; 
+    margin-right: 10px;
+}
+nav{
+    margin-top: 20px;
+    padding-right: 12px;
+}
+.skills  {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+ li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: blue;
+    text-decoration: underline;
+  }
+  h2, h3{
+    color: #ffffff;
+  }
+  h3{
+    font-size: 13px;
+  }
+  
+ 
+ main{    
+    margin-top: 104px;
+}
+.experiencia > li{
+    display: block;
+}
+.funciones > li {
+    display: list-item;
+}
+#elevator-speech, #experiencia-laboral,#cursos-y-certificaciones, #herramientas-que-manejo, #estudios-academicos{
+    margin-top: -104px;
+    padding-top: 104px;
+}
+#estudios-academicos > p {
+    display: inline-block;
+}
+footer{
+    background-color: #333333;
+    color: #ffffff;
+    padding: 5px;
+    text-align: center;
+} 
+
+ 
+  .contacto h4 {
+    margin-bottom: 10px;
+  }
+  
+  .contacto ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contacto ul li {
+    margin-bottom: 8px;
+  }
+  
+  .contacto ul li:last-child {
+    margin-bottom: 0;
+  }
+  .grupo1 {
+    background-color: #f0f0f0; /* Color gris claro */
+    padding: 40px;
+  }
+
+
