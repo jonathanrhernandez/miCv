@@ -93,7 +93,7 @@ place-items: center;
 .funciones > li {
     display: list-item;
 }
-#elevator-speech, #experiencia-laboral,#cursos-y-certificaciones, #herramientas-que-manejo, #estudios-academicos{
+#elevator-speech,#elevator-speech2, #experiencia-laboral, #experiencia-laboral2,#cursos-y-certificaciones,#cursos-y-certificaciones2, #herramientas-que-manejo,#herramientas-que-manejo2, #estudios-academicos,#estudios-academicos2{
     margin-top: -100px;
     padding-top: 100px;
 }
@@ -194,5 +194,3 @@ footer{
   #Espanol{
     display: block;
   }
-
-

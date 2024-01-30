@@ -1,15 +1,15 @@
 function toggleDivs() {    
-  var Espanol = document.getElementById("Espanol");
-  var Ingles = document.getElementById("Ingles");  
-  var estiloEspanol = window.getComputedStyle(Espanol);  
-  // var estiloIngles = window.getComputedStyle(Ingles);  
+  let Espanol = document.getElementById("Espanol");
+  let Ingles = document.getElementById("Ingles");  
+  let estiloEspanol = window.getComputedStyle(Espanol);    
   if (estiloEspanol.display === "block") {    
     Espanol.style.display = "none";
-    Ingles.style.display = "block";
+    Ingles.style.display = "block"; 
+    window.location.href = "#elevator-speech2";  
   } else {
     Espanol.style.display = "block";
     Ingles.style.display = "none";
-  }
- 
+    window.location.href = "#elevator-speech";
+  } 
 }
 
